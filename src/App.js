@@ -4645,7 +4645,7 @@ function App() {
                     <span className='alert alert-success'>Atualizado versão 1.6</span>
                 </div>
                 <div className='gap-3 d-flex col align-center justify-content-center'>
-                    <input className='input-group p-3' placeholder='Item name or ID' type='text' onChange={(e) => { setPesquisa(e.target.value) }} value={pesquisa} />
+                    <input className='input-group p-3' placeholder='Item name' type='text' onChange={(e) => { setPesquisa(e.target.value) }} value={pesquisa} />
                 </div>
             </div>
             <div data-bs-theme="dark" className='gap-3 d-flex col align-center justify-content-center' style={{ flexWrap: 'wrap' }}>
