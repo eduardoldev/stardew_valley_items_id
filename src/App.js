@@ -4642,7 +4642,7 @@ function App() {
             <div className='p-3 g-3 d-flex row'>
                 <h2>Stardew Valley - Item IDs</h2>
                 <div className='p-3'>
-                    <span className='alert alert-success'>Atualizado versão 1.6</span>
+                    <span className='alert alert-success'>Updated 1.6</span>
                 </div>
                 <div className='gap-3 d-flex col align-center justify-content-center'>
                     <input className='input-group p-3' placeholder='Item name' type='text' onChange={(e) => { setPesquisa(e.target.value) }} value={pesquisa} />
